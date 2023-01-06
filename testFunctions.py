@@ -103,6 +103,9 @@ mat2 = [[2,3],[2,5],[4,3]]
 # change(ar1)
 # print(ar1)
 
-npar = np.array([])
-npar = np.append(npar, 1)
-print(npar)
+# initialize empty 1d array
+a = np.array([])
+# add 1d array to 1d array
+a = np.append(a, [1,2,3])
+a = np.append(a, [4,5,7])
+print(a)
